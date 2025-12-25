@@ -1,0 +1,12 @@
+[project]
+name = "games_project_pisyapopa"
+version = "0.1.0"
+description = "Проект для практической работы"
+authors = [{name = "pisyapopa"}]
+
+[project.scripts]
+vd-main = "games_project_pisyapopa.VD_games.scripts.VD_main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
