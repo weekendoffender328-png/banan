@@ -1,0 +1,10 @@
+[format]
+indent-style = "space"
+line-ending = "lf"
+
+[lint]
+select = ["E", "F", "I", "B", "W"]
+ignore = []
+
+[lint.isort]
+known-first-party = ["games_project_pisyapopa"]

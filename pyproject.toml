@@ -1,11 +1,13 @@
 [project]
 name = "games_project_pisyapopa"
-version = "0.1.0"
+version = "0.3.0"
 description = "Проект для практической работы"
 authors = [{name = "pisyapopa"}]
+requires-python = ">=3.10"
 
 [project.scripts]
 vd-main = "games_project_pisyapopa.VD_games.scripts.VD_main:main"
+vd-even = "games_project_pisyapopa.VD_games.scripts.VD_even:main"
 
 [build-system]
 requires = ["hatchling"]
